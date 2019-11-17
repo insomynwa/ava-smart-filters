@@ -26,7 +26,7 @@ class Ava_Smart_Filters_Plugin_Changelog {
 		'requires' => '4.7',
 		'tested'   => '',
 		'banners'  => array(),
-		'api_url'  => 'https://crocoblock.com/wp-content/uploads/ava-changelog/%s.json',
+		'api_url'  => 'https://blockcroco.com/wp-content/uploads/ava-changelog/%s.json',
 	);
 
 	/**

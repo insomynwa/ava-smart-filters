@@ -24,7 +24,7 @@ class Ava_Smart_Filters_Search_Widget extends Ava_Smart_Filters_Base_Widget {
 
 	public function get_help_url() {
 		return ava_smart_filters()->widgets->prepare_help_url(
-			'https://crocoblock.com/knowledge-base/articles/avasmartfilters-how-to-create-a-search-filter/',
+			'https://blockcroco.com/knowledge-base/articles/avasmartfilters-how-to-create-a-search-filter/',
 			$this->get_name()
 		);
 	}

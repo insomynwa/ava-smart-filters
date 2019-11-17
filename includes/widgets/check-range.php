@@ -21,7 +21,7 @@ class Ava_Smart_Filters_Check_Range_Widget extends Ava_Smart_Filters_Base_Widget
 
 	public function get_help_url() {
 		return ava_smart_filters()->widgets->prepare_help_url(
-			'https://crocoblock.com/knowledge-base/articles/avasmartfilters-how-to-use-the-check-range-filter-to-filter-the-publications-or-products/',
+			'https://blockcroco.com/knowledge-base/articles/avasmartfilters-how-to-use-the-check-range-filter-to-filter-the-publications-or-products/',
 			$this->get_name()
 		);
 	}

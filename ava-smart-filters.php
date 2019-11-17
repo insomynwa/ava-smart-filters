@@ -163,8 +163,8 @@ if ( ! class_exists( 'Ava_Smart_Filters' ) ) {
 					'name'     => 'AvaSmartFilters',
 					'slug'     => 'ava-smart-filters',
 					'version'  => $this->get_version(),
-					'author'   => '<a href="https://zemez.io/zemezava/">Zemez</a>',
-					'homepage' => 'https://crocoblock.com/woocommerce/avasmartfilters/',
+					'author'   => '<a href="https://avator.io/avatorava/">Avator</a>',
+					'homepage' => 'https://blockcroco.com/woocommerce/avasmartfilters/',
 					'banners'  => array(
 						'high' => $this->plugin_url( 'assets/images/banner.png' ),
 						'low'  => $this->plugin_url( 'assets/images/banner.png' ),

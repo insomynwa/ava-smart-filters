@@ -24,7 +24,7 @@ class Ava_Smart_Filters_Radio_Widget extends Ava_Smart_Filters_Base_Widget {
 
 	public function get_help_url() {
 		return ava_smart_filters()->widgets->prepare_help_url(
-			'https://crocoblock.com/knowledge-base/articles/avasmartfilters-how-to-create-a-checkboxes-filter-a-difference-between-checkboxes-select-and-radio-filters/',
+			'https://blockcroco.com/knowledge-base/articles/avasmartfilters-how-to-create-a-checkboxes-filter-a-difference-between-checkboxes-select-and-radio-filters/',
 			$this->get_name()
 		);
 	}

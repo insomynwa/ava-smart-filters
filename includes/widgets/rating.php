@@ -24,7 +24,7 @@ class Ava_Smart_Filters_Rating_Widget extends Ava_Smart_Filters_Base_Widget {
 
 	public function get_help_url() {
 		return ava_smart_filters()->widgets->prepare_help_url(
-			'https://crocoblock.com/knowledge-base/articles/avasmartfilters-how-to-filter-woocommerce-products-by-rating/',
+			'https://blockcroco.com/knowledge-base/articles/avasmartfilters-how-to-filter-woocommerce-products-by-rating/',
 			$this->get_name()
 		);
 	}

@@ -25,7 +25,7 @@ class Ava_Smart_Filters_Base_Update {
 	protected $api = array(
 		'version' => '',
 		'slug'    => '',
-		'api_url' => 'http://avaelements.zemez.io/updates/%s.json',
+		'api_url' => 'http://avaelements.avator.io/updates/%s.json',
 	);
 
 	/**

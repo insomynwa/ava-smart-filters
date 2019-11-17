@@ -24,7 +24,7 @@ class Ava_Smart_Filters_Active_Filters_Widget extends Widget_Base {
 
 	public function get_help_url() {
 		return ava_smart_filters()->widgets->prepare_help_url(
-			'https://crocoblock.com/knowledge-base/articles/avasmartfilters-how-to-enable-visitors-to-disable-active-filters/',
+			'https://blockcroco.com/knowledge-base/articles/avasmartfilters-how-to-enable-visitors-to-disable-active-filters/',
 			$this->get_name()
 		);
 	}
