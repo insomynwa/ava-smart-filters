@@ -1,0 +1,33 @@
+.ava-smart-filters-active{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+	.ava-active-filter{
+		position: relative;
+		display: flex;
+		padding-right: 10px;
+		cursor: pointer;
+	}
+	
+	.ava-active-filters__title{
+		flex: 0 0 auto;
+	}
+	
+	.ava-active-filter__remove{
+		position: absolute;
+		top: 0;
+		right: 0;
+		line-height: 1;
+	}
+}
+
+.ava-active-filters__list{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	width: 100%;
+}

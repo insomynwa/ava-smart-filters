@@ -1,0 +1,57 @@
+.ava-checkboxes-list{
+	.ava-checkboxes-list__item {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		cursor: pointer;
+		
+		.ava-checkboxes-list__input {
+			outline: 0;
+			visibility: hidden;
+			margin: 0;
+			float: left;
+			font-size: inherit;
+			width: 0;
+			height: 0;
+			display: none;
+			
+			&:checked {
+				+ .ava-checkboxes-list__decorator {
+					background: #ccc;
+					
+					.ava-checkboxes-list__checked-icon{
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		.ava-checkboxes-list__label{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		.ava-checkboxes-list__decorator {
+			position: relative;
+			width: 14px;
+			height: 14px;
+			min-width: 14px;
+			min-height: 14px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			vertical-align: middle;
+		}
+		
+		.ava-checkboxes-list__checked-icon{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate( -50%, -50% );
+			opacity: 0;
+			font-size: 10px;
+			color: #fff;
+		}
+		
+	}
+}
