@@ -597,19 +597,19 @@ msgid "Notes"
 msgstr ""
 
 #: includes/providers/epro-archive-products.php:143
-msgid "Elementor Pro Archive Products"
+msgid "Elementor Avator Archive Products"
 msgstr ""
 
 #: includes/providers/epro-archive.php:169
-msgid "Elementor Pro Archive"
+msgid "Elementor Avator Archive"
 msgstr ""
 
 #: includes/providers/epro-posts.php:136
-msgid "Elementor Pro Posts"
+msgid "Elementor Avator Posts"
 msgstr ""
 
 #: includes/providers/epro-products.php:78
-msgid "Elementor Pro Products"
+msgid "Elementor Avator Products"
 msgstr ""
 
 #: includes/providers/ava-engine-calendar.php:135

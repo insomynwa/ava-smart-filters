@@ -1,7 +1,7 @@
 <?php
 /**
  * Class: Ava_Smart_Filters_Provider_EPro_Products
- * Name: Elementor Pro Products
+ * Name: Elementor Avator Products
  */
 
 // If this file is called directly, abort.
@@ -75,7 +75,7 @@ if ( ! class_exists( 'Ava_Smart_Filters_Provider_EPro_Products' ) ) {
 		 * @return string
 		 */
 		public function get_name() {
-			return __( 'Elementor Pro Products', 'ava-smart-filters' );
+			return __( 'Elementor Avator Products', 'ava-smart-filters' );
 		}
 
 		/**
@@ -88,7 +88,7 @@ if ( ! class_exists( 'Ava_Smart_Filters_Provider_EPro_Products' ) ) {
 		}
 
 		/**
-		 * Returns Elementor Pro apropriate widget name
+		 * Returns Elementor Avator apropriate widget name
 		 * @return [type] [description]
 		 */
 		public function widget_name() {
